@@ -1,0 +1,90 @@
+body {
+  min-width: 320px;
+  max-width: 1125px;
+  width: 10rem;
+  margin: 0 auto;
+  line-height:1.5;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #ffffff;
+  box-sizing: border-box;
+}
+@media screen and (min-width:1125px){
+  html {
+    font-size: 112.5px!important;
+  }
+}
+
+@media screen and (max-width: 640px){
+  .pic{
+    width: 640px;
+  }
+}
+.bg {
+  width: 10rem;
+  height: 83.555556rem;
+  background-color: #fff4ae;
+  overflow: hidden;
+}
+/* content  */
+.content {
+  position: relative;
+  width: 9.137778rem;
+  height: 82rem;
+  background: url(../images/invite/invite-bg.png) no-repeat;
+  background-size: 9.137778rem auto;
+  margin-left: 0.426667rem;
+  margin-top: 0.995556rem;
+}
+.content a {
+  display: block;
+  position: absolute;
+}
+.content a:nth-child(1) {
+  width: 8.355556rem;
+  height: 80.115556rem;
+  background: url(../images/invite/invite-font.png) no-repeat;
+  background-size: 8.355556rem auto;
+  margin: 0.853333rem 0 0 0.373333rem;
+}
+.content a:nth-child(2) {
+  width: 0.728889rem;
+  height: 0.853333rem;
+  background: url(../images/invite/invite-san01.png) no-repeat;
+  background-size: 0.728889rem auto;
+  margin: 1.475556rem 0 0 -0.426667rem;
+}
+.content a:nth-child(3) {
+  width: 1.04rem;
+  height: 1.004444rem;
+  background: url(../images/invite/invite-san02.png) no-repeat;
+  background-size: 1.04rem auto;
+  margin: -0.337778rem 0 0 8.133333rem;
+}
+.content a:nth-child(4) {
+  width: 0.826667rem;
+  height: 0.942222rem;
+  background: url(../images/invite/invite-san03.png) no-repeat;
+  background-size: 0.826667rem auto;
+  margin: 14.328889rem 0 0 -0.426667rem;
+}
+.content a:nth-child(5) {
+  width: 0.728889rem;
+  height: 0.817778rem;
+  background: url(../images/invite/invite-san04.png) no-repeat;
+  background-size: 0.746667rem auto;
+  margin: 14.42222rem 0 0 8.8rem;
+}
+.content a:nth-child(6) {
+  width: 0.862222rem;
+  height: 0.817778rem;
+  background: url(../images/invite/invite-san05.png) no-repeat;
+  background-size: 0.862222rem auto;
+  margin: 31.324444rem 0 0 -0.426667rem;
+}
+.content a:nth-child(7) {
+  width: 0.808889rem;
+  height: 0.862222rem;
+  background:url(../images/invite/invite-san06.png) no-repeat;
+  background-size: 0.808889rem auto;
+  margin: 56.506667rem 0 0 8.8rem;
+}
